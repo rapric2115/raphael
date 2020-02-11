@@ -1,0 +1,417 @@
+<!doctype html>
+<html ⚡>
+
+<head>
+    <meta charset="utf-8">
+    <title>Raphael Richardson | Resume </title>
+    <link rel="canonical" href="index.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Economica:400,700|La+Belle+Aurore|Laila|Merriweather&display=swap" rel="stylesheet">
+
+    <!--Microdata Json-ld-->
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org/",
+            "@type": "Person",
+            "name": "Raphael Richardson",
+            "hasOccupation": {
+                "@type": "Occupation",
+                "name": "Web Designer, UX/UI, Frontend Developer, and SEO Expert"
+            }
+        }
+    </script>
+    <style amp-custom>
+         :root {
+            --black: #0b0c10;
+            --dark-gray: #1f2833;
+            --light-gray: #c5c6c7;
+            --sky-blue: #66fcf1;
+            --aqua: #45a29e;
+            --white: #fff;
+            --font-primary: 'Economica', sans-serif;
+            --font-secundary: 'Laila', serif;
+            --font-paragraph: 'Merriweather', serif;
+            --font-script: 'La Belle Aurore', cursive;
+        }
+        
+        body,
+        html {
+            background-color: var(--white);
+            /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%2345a29e' stroke-width='0.2' stroke-opacity='0.69'%3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E"); */
+            color: var(--dark-gray);
+            font-size: 16px;
+            height: 100vh;
+            font-family: var(--font-secundary);
+        }
+        
+        .btn-menubar {
+            width: 40px;
+            height: 40px;
+            margin: 2%;
+            background-color: var(--white);
+            color: white;
+            border: none;
+            -webkit-box-shadow: inset 0px 0px 5px 2px rgba(193, 193, 193, 1);
+            -moz-box-shadow: inset 0px 0px 5px 2px rgba(193, 193, 193, 1);
+            box-shadow: inset 0px 0px 5px 2px rgba(193, 193, 193, 1);
+        }
+        
+        .btn-close_sidebar {
+            position: relative;
+            left: 25%;
+        }
+        
+        .sidebar {
+            width: 235px;
+            color: var(--black);
+        }
+        
+        .sidebar ul {
+            list-style: none;
+        }
+        
+        .sidebar ul li {
+            padding: .5rem 0;
+        }
+        
+        .sidebar ul li a {
+            text-decoration: none;
+            color: var(--black);
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        main {
+            padding: 15px;
+        }
+        
+        h1 {
+            font-family: var(--font-primary);
+        }
+        
+        .skills-programs {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: start;
+            align-items: auto;
+            align-content: start;
+        }
+        
+        .skills-programs ul li:nth-child(1) {
+            list-style: none;
+            font-size: 1.5rem;
+            padding-bottom: .5rem;
+        }
+        
+        .exp {
+            display: flex;
+            flex-wrap: wrap;
+            width: 96vw;
+        }
+        
+        .exp h3 {
+            -webkit-margin-bottom-collapse: discard;
+        }
+        
+        .exp .desc {
+            font-size: .85rem;
+        }
+        
+        .social ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            list-style: none;
+        }
+        
+        .social ul li {
+            margin: .5rem;
+        }
+        
+        .mic {
+            position: fixed;
+            top: 85%;
+            left: 80%;
+        }
+        
+        .mic button {
+            background: var(--aqua);
+            border-radius: 50%;
+            border: none;
+            padding: .5rem;
+        }
+        
+        .skills-cert {
+            width: 100%;
+        }
+        
+        @media (min-width: 576px) {
+            .resume:nth-child(2) {
+                width: 90%;
+                margin: auto;
+            }
+            .exp-desc {
+                width: 33%;
+                margin: 1rem;
+            }
+            .skills-programs {
+                width: 50%;
+            }
+            .certifications {
+                width: 50%;
+            }
+        }
+        
+        @media (min-width: 1200px) {
+            .skills-cert {
+                display: inline-flex;
+            }
+        }
+    </style>
+
+    <style amp-boilerplate>
+        body {
+            -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            animation: -amp-start 8s steps(1, end) 0s 1 normal both
+        }
+        
+        @-webkit-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+            to {
+                visibility: visible
+            }
+        }
+        
+        @-moz-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+            to {
+                visibility: visible
+            }
+        }
+        
+        @-ms-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+            to {
+                visibility: visible
+            }
+        }
+        
+        @-o-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+            to {
+                visibility: visible
+            }
+        }
+        
+        @keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+            to {
+                visibility: visible
+            }
+        }
+    </style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+</head>
+
+<body>
+    <amp-sidebar id="sidebar-left" class="sidebar" layout="nodisplay" side="left">
+        <h3 class="text-center">
+            <svg id="Layer_1" width="30" height="35" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.49 38.95"><title>Raphael-richardson-logo</title><path d="M10.06,8c-.46.21-6.39-.13-8.33-.21l-.22-.19V6.22L1.73,6c3.35.14,6,.22,7.82.22q3.1,0,8.37-.2c1.3,0,2.24,0,2.82,0q6.95,0,9.41,2.52a8.27,8.27,0,0,1,2.47,6A9.33,9.33,0,0,1,31.41,19a10.71,10.71,0,0,1-3.56,3.8,17.79,17.79,0,0,1-6.5,2.37c.51.71,1.43,1.95,2.77,3.7L28,34.06c1.26,1.7,2.62,3.5,4.06,5.39a17.84,17.84,0,0,0,2.8,3.21,3.27,3.27,0,0,0,1.08.45,8.31,8.31,0,0,0,1.44.09l.22.22v1.29l-.24.24a25.71,25.71,0,0,0-3.13-.16c-1.3,0-2.72.05-4.25.16Q28.1,42.66,24,37q-4.72-6.59-9.66-12.21l.27-.85c1,.06,1.7.08,2.23.08,3.16,0,5.64-.75,7.43-2.27A7.83,7.83,0,0,0,27,15.41a6.45,6.45,0,0,0-2.42-5.47,10.42,10.42,0,0,0-6.52-1.86c-1.92,0-5.57-.13-5.57-.13" transform="translate(-1.51 -6)"/><path d="M28.2,24m4.47,1.21c.51.71,1.44,1.95,2.77,3.7l3.9,5.16q1.89,2.55,4.06,5.39a17.42,17.42,0,0,0,2.8,3.21c.42.25,2.44,1.75,2.74,1.81s-.66,0,0,0h0v.24l-.25.24a25.65,25.65,0,0,0-3.12-.16c-1.3,0-2.72.05-4.26.16q-1.89-2.3-6-8-4.71-6.59-9.65-12.21" transform="translate(-1.51 -6)"/></svg>
+        </h3>
+        <button on="tap:sidebar-left.close" class="btn-close_sidebar">Close sidebar</button>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li><a href="raphael.html">Sobre Mi</a></li>
+                <li><a href="trabajos.html">Trabajos</a></li>
+                <li>Contratar</li>
+            </ul>
+        </nav>
+    </amp-sidebar>
+    <button on="tap:sidebar-left.toggle" class="btn-menubar">
+        <amp-img src="images/svg/menubar.svg"
+          width="150"
+          height="150"
+          layout="responsive"
+          alt="hamburger menu">
+        </amp-img>
+    </button>
+
+    <!--Main Content-->
+    <main class="container">
+        <div>
+            <amp-img src="" width="" height="" layout="responsive" alt="">
+            </amp-img>
+        </div>
+        <div class="resume" itemscope itemtype="http://schema.org/Person">
+            <h1 itemprop="name">Raphael B. Richardson Ballester</h1>
+            <h2 itemprop="jobTitle">Frontend web Developer, Web UX/UI Designer</h2>
+            <p id="respond" class="text-center"></p>
+            <div itemprop="description">
+                <p class="text-justify">
+                    Diseñador gráfico, web, de experiencia de usuario y de interfaz de usuario con un historial comprobado de trabajo en la industria del diseño, experto en optimización de motores de búsqueda (SEO), Microsoft Office, planificación estratégica y marketing
+                    digital, certificación de desarrollador web Full stack de freecodecamp, udemy.
+                </p>
+                <p class="text-justify">
+                    Estudios de Diseño Gráfico UNAPEC (Universidad Acción Pro Educación y Cultura), Certificaciones En Udamy, linkedin learning
+                </p>
+            </div>
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href="https://sourcerer.io/rapric2115" target="_blanck">
+                            <svg width="32px" height="40px" viewBox="0 0 32 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+                                <title>LOGO</title>
+                                <desc>Created with Sketch.</desc>
+                                <defs>
+                                    <polygon id="path-1" points="6.50557515 6.8668505 0.0122782746 6.8668505 0.0122782746 0.0647553409 6.50557515 0.0647553409 6.50557515 6.8668505"></polygon>
+                                    <polygon id="path-3" points="0 12.417702 0 0.000470332226 31.9731277 0.000470332226 31.9731277 12.417702 31.9731277 24.8349337 0 24.8349337 0 12.417702"></polygon>
+                                </defs>
+                                <g id="Desktop/tablet-home-Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-160.000000, -15.000000)">
+                                    <g id="Page-1" transform="translate(160.000000, 15.000000)">
+                                        <g>
+                                            <g id="Group-3" transform="translate(5.193228, 33.016852)">
+                                                <mask id="mask-2" fill="white">
+                                                    <use xlink:href="#path-1"></use>
+                                                </mask>
+                                                <g id="Clip-2"></g>
+                                                <path d="M4.5146214,5.01707148 C4.5146214,5.7882282 4.73023309,6.17371249 5.16173469,6.17371249 C5.59620385,6.17371249 5.81320658,5.7882282 5.81320658,5.01707148 C5.81320658,4.24600883 5.59620385,3.86052454 5.16173469,3.86052454 C4.73023309,3.86052454 4.5146214,4.24600883 4.5146214,5.01707148 M5.16173469,6.86688813 C4.2657174,6.86688813 3.81789423,6.25028258 3.81789423,5.01707148 C3.81789423,3.78414258 4.2657174,3.1673489 5.16173469,3.1673489 C6.05775198,3.1673489 6.50557515,3.78414258 6.50557515,5.01707148 C6.50557515,6.25028258 6.05775198,6.86688813 5.16173469,6.86688813 M0.935560007,6.752033 C0.926286386,6.7368883 0.926286386,6.7200504 0.935560007,6.70151931 L4.86766816,0.174813082 C4.87963113,0.16267851 4.8915941,0.156564191 4.90383528,0.156564191 L5.55094857,0.156564191 C5.56903214,0.156564191 5.58182973,0.164842039 5.5894341,0.181773999 C5.59676026,0.198517826 5.59620385,0.216296384 5.58702296,0.234545274 L1.64128259,6.75673632 C1.62931961,6.76896496 1.61707843,6.77498521 1.60502273,6.77498521 L0.976178469,6.77498521 C0.958094907,6.77498521 0.94455542,6.76745989 0.935560007,6.752033 M0.704646838,1.91457199 C0.704646838,2.6854465 0.921927784,3.07111893 1.35621147,3.07111893 C1.78762033,3.07111893 2.00323202,2.6854465 2.00323202,1.91457199 C2.00323202,1.1433212 1.78762033,0.757742843 1.35621147,0.757742843 C0.921927784,0.757742843 0.704646838,1.1433212 0.704646838,1.91457199 M0.0122782746,1.91457199 C0.0122782746,0.681266823 0.460379654,0.0647553409 1.35621147,0.0647553409 C2.24916846,0.0647553409 2.69560059,0.681266823 2.69560059,1.91457199 C2.69560059,3.15069914 2.24916846,3.76871569 1.35621147,3.76871569 C0.460379654,3.76871569 0.0122782746,3.15069914 0.0122782746,1.91457199" id="Fill-1" fill="#00E7AA" mask="url(#mask-2)"></path>
+                                            </g>
+                                            <path d="M4.68537659,26.6342461 L4.68537659,25.6450433 C4.68537659,25.6143777 4.7017909,25.5990449 4.73517593,25.5990449 L5.71029721,25.5990449 C5.74052921,25.5990449 5.75564522,25.6143777 5.75564522,25.6450433 L5.75564522,26.6342461 C5.75564522,26.6679219 5.74052921,26.6846657 5.71029721,26.6846657 L4.73517593,26.6846657 C4.7017909,26.6846657 4.68537659,26.6679219 4.68537659,26.6342461 M1.06606768,28.1247289 L1.06606768,27.5128267 C1.06606768,27.4822551 1.08109095,27.4668282 1.11141569,27.4668282 L2.12288956,27.4668282 C2.15293609,27.4668282 2.16823757,27.4500844 2.16823757,27.4162204 L2.16823757,26.7124153 C2.16823757,25.9518881 2.60511786,25.5806078 3.47887846,25.5990449 L4.10021108,25.5990449 C4.13350338,25.5990449 4.1501959,25.6143777 4.1501959,25.6450433 L4.1501959,26.3535518 C4.1501959,26.3842175 4.13350338,26.3995503 4.10021108,26.3995503 L3.48787387,26.3995503 C3.35182985,26.3995503 3.24527594,26.441598 3.16821215,26.5261637 C3.09114835,26.6103532 3.05266283,26.7262431 3.05266283,26.873363 L3.05266283,27.4162204 C3.05266283,27.4500844 3.06768609,27.4668282 3.09801083,27.4668282 L5.61514985,27.4668282 C5.64528912,27.4668282 5.66049786,27.4822551 5.66049786,27.5128267 L5.66049786,32.1868943 C5.66049786,32.217654 5.64528912,32.2329868 5.61514985,32.2329868 L4.82587195,32.2329868 C4.79554721,32.2329868 4.78052394,32.217654 4.78052394,32.1868943 L4.78052394,28.2213351 C4.78052394,28.1876594 4.76540794,28.1707274 4.73517593,28.1707274 L3.09801083,28.1707274 C3.06768609,28.1707274 3.05266283,28.1876594 3.05266283,28.2213351 L3.05266283,32.1868943 C3.05266283,32.217654 3.03736135,32.2329868 3.00722208,32.2329868 L2.21803691,32.2329868 C2.18465188,32.2329868 2.16823757,32.217654 2.16823757,32.1868943 L2.16823757,28.2213351 C2.16823757,28.1876594 2.15293609,28.1707274 2.12288956,28.1707274 L1.11141569,28.1707274 C1.08109095,28.1707274 1.06606768,28.1553946 1.06606768,28.1247289" id="Fill-4" fill="#00E7AA"></path>
+                                            <path d="M31.8151516,28.9182923 C31.8151516,27.0944379 30.3576165,25.6159956 28.5595541,25.6159956 C26.7614917,25.6159956 25.3039566,27.0944379 25.3039566,28.9182923 C25.3039566,30.7421466 26.7614917,32.2205889 28.5595541,32.2205889 C30.3576165,32.2205889 31.8151516,30.7421466 31.8151516,28.9182923" id="Fill-6" fill="#00E7AA"></path>
+                                            <path d="M16.2791281,32.8724787 C14.4732758,32.8724787 13.0092492,34.3574117 13.0092492,36.1893557 C13.0092492,38.0210175 14.4732758,39.5060445 16.2791281,39.5060445 C18.0850731,39.5060445 19.5490069,38.0210175 19.5490069,36.1893557 C19.5490069,34.3574117 18.0850731,32.8724787 16.2791281,32.8724787 M16.2791281,33.7060015 C17.6289964,33.7060015 18.7271786,34.8200304 18.7271786,36.1893557 C18.7271786,37.5583987 17.6289964,38.6724276 16.2791281,38.6724276 C14.9292597,38.6724276 13.8310775,37.5583987 13.8310775,36.1893557 C13.8310775,34.8200304 14.9292597,33.7060015 16.2791281,33.7060015" id="Fill-8" fill="#00E7AA"></path>
+                                            <g id="Group-12" transform="translate(0.000000, 0.093596)">
+                                                <mask id="mask-4" fill="white">
+                                                    <use xlink:href="#path-3"></use>
+                                                </mask>
+                                                <g id="Clip-11"></g>
+                                                <path d="M2.58984421,17.9694942 C3.18910562,18.517055 3.7585987,18.9790153 4.29841619,19.3562217 C4.83767727,19.7333341 5.54497636,20.0801571 6.42086989,20.3959382 C7.29565058,20.7121896 8.08131178,20.9671096 8.777668,21.1596636 C9.47411695,21.352782 10.3142143,21.5201263 11.2991656,21.6629191 C12.2830041,21.8052416 13.0686653,21.9188739 13.6564274,22.00391 C14.2442823,22.0893223 15.0355076,22.2028605 16.0301962,22.3462178 C16.1680023,22.3668183 16.4912807,22.4135693 17.000217,22.4863768 C17.5087824,22.5594664 17.8845496,22.6136487 18.1274257,22.6488295 C18.3703018,22.6840104 18.7513549,22.7388511 19.2718833,22.8142924 C19.7917625,22.8898278 20.2100956,22.9626352 20.5279026,23.034596 C20.8445967,23.1058043 21.2430842,23.2150155 21.7234578,23.3608185 C22.2031822,23.5070918 22.5808968,23.6584447 22.8569725,23.8162882 C23.1330482,23.9742257 23.4384286,24.1753398 23.7745046,24.4182194 C23.9614608,24.5532988 24.1221727,24.692329 24.2571039,24.8349337 L31.9731277,24.8349337 C31.905894,24.4863235 31.8230805,24.1508825 31.7248729,23.8288931 C30.7890717,20.7674066 28.3068015,18.6532632 24.2770422,17.4869333 C22.7895533,17.0606242 20.0187807,16.5865293 15.9643535,16.0656834 C15.725836,16.0284331 15.3238245,15.9655027 14.7588755,15.8760455 C14.1933701,15.7870586 13.672378,15.7045623 13.1964558,15.6296855 C12.7201626,15.5542442 12.3133288,15.490373 11.97614,15.436567 C11.6382092,15.3833254 11.2540031,15.2888827 10.8233361,15.1516398 C10.3931328,15.0153375 9.90283647,14.8232538 9.35318893,14.5749184 C8.80344866,14.3269593 8.38010785,14.0539784 8.08381565,13.7563522 C7.78641062,13.458726 7.53407539,13.0927134 7.32588259,12.6583146 C7.11824621,12.2240098 7.01410344,11.7463404 7.01410344,11.224836 C7.01410344,9.91063372 7.69117053,8.76932554 9.04632481,7.80100555 C10.4010154,6.83324996 12.3737001,6.3489959 14.9630806,6.3489959 C17.8885372,6.3489959 20.1546393,6.96390826 21.7615724,8.1916635 C23.3674854,9.41998314 24.1714156,11.0800678 24.1714156,13.1721055 C24.1714156,13.4155495 24.2908599,13.536707 24.5314176,13.536707 L30.8618697,13.536707 C31.0531845,13.536707 31.1494447,13.4155495 31.1494447,13.1721055 C31.1494447,10.3259371 30.4237838,7.89403727 28.9734822,5.87499509 C27.5221604,3.85632917 25.5979768,2.3721488 23.2004675,1.42386497 C20.8020308,0.475110801 18.0565752,0.000451518937 14.9630806,0.000451518937 C10.5032107,0.000451518937 6.89373184,1.071398 4.13631329,3.21122149 C1.37843106,5.35198565 0,7.99101977 0,11.1287942 C0,12.1263688 0.11360186,13.0564978 0.341454735,13.9197456 C0.569493082,14.7835578 0.85113296,15.5376885 1.18711626,16.1817614 C1.52272861,16.826681 1.99011912,17.4224978 2.58984421,17.9694942 Z" id="Fill-10" fill="#00E7AA" mask="url(#mask-4)"></path>
+                                            </g>
+                                            <polygon id="Fill-13" fill="#00E7AA" points="20.230312 39.4948317 26.7765613 39.4948317 26.7765613 32.8545873 20.230312 32.8545873"></polygon>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/rapric2115" target="_blanck">
+                            <svg width="42px" height="40px" viewBox="0 0 256 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                                <g>
+                                    <path d="M128.00106,0 C57.3172926,0 0,57.3066942 0,128.00106 C0,184.555281 36.6761997,232.535542 87.534937,249.460899 C93.9320223,250.645779 96.280588,246.684165 96.280588,243.303333 C96.280588,240.251045 96.1618878,230.167899 96.106777,219.472176 C60.4967585,227.215235 52.9826207,204.369712 52.9826207,204.369712 C47.1599584,189.574598 38.770408,185.640538 38.770408,185.640538 C27.1568785,177.696113 39.6458206,177.859325 39.6458206,177.859325 C52.4993419,178.762293 59.267365,191.04987 59.267365,191.04987 C70.6837675,210.618423 89.2115753,204.961093 96.5158685,201.690482 C97.6647155,193.417512 100.981959,187.77078 104.642583,184.574357 C76.211799,181.33766 46.324819,170.362144 46.324819,121.315702 C46.324819,107.340889 51.3250588,95.9223682 59.5132437,86.9583937 C58.1842268,83.7344152 53.8029229,70.715562 60.7532354,53.0843636 C60.7532354,53.0843636 71.5019501,49.6441813 95.9626412,66.2049595 C106.172967,63.368876 117.123047,61.9465949 128.00106,61.8978432 C138.879073,61.9465949 149.837632,63.368876 160.067033,66.2049595 C184.49805,49.6441813 195.231926,53.0843636 195.231926,53.0843636 C202.199197,70.715562 197.815773,83.7344152 196.486756,86.9583937 C204.694018,95.9223682 209.660343,107.340889 209.660343,121.315702 C209.660343,170.478725 179.716133,181.303747 151.213281,184.472614 C155.80443,188.444828 159.895342,196.234518 159.895342,208.176593 C159.895342,225.303317 159.746968,239.087361 159.746968,243.303333 C159.746968,246.709601 162.05102,250.70089 168.53925,249.443941 C219.370432,232.499507 256,184.536204 256,128.00106 C256,57.3066942 198.691187,0 128.00106,0 Z M47.9405593,182.340212 C47.6586465,182.976105 46.6581745,183.166873 45.7467277,182.730227 C44.8183235,182.312656 44.2968914,181.445722 44.5978808,180.80771 C44.8734344,180.152739 45.876026,179.97045 46.8023103,180.409216 C47.7328342,180.826786 48.2627451,181.702199 47.9405593,182.340212 Z M54.2367892,187.958254 C53.6263318,188.524199 52.4329723,188.261363 51.6232682,187.366874 C50.7860088,186.474504 50.6291553,185.281144 51.2480912,184.70672 C51.8776254,184.140775 53.0349512,184.405731 53.8743302,185.298101 C54.7115892,186.201069 54.8748019,187.38595 54.2367892,187.958254 Z M58.5562413,195.146347 C57.7719732,195.691096 56.4895886,195.180261 55.6968417,194.042013 C54.9125733,192.903764 54.9125733,191.538713 55.713799,190.991845 C56.5086651,190.444977 57.7719732,190.936735 58.5753181,192.066505 C59.3574669,193.22383 59.3574669,194.58888 58.5562413,195.146347 Z M65.8613592,203.471174 C65.1597571,204.244846 63.6654083,204.03712 62.5716717,202.981538 C61.4524999,201.94927 61.1409122,200.484596 61.8446341,199.710926 C62.5547146,198.935137 64.0575422,199.15346 65.1597571,200.200564 C66.2704506,201.230712 66.6095936,202.705984 65.8613592,203.471174 Z M75.3025151,206.281542 C74.9930474,207.284134 73.553809,207.739857 72.1039724,207.313809 C70.6562556,206.875043 69.7087748,205.700761 70.0012857,204.687571 C70.302275,203.678621 71.7478721,203.20382 73.2083069,203.659543 C74.6539041,204.09619 75.6035048,205.261994 75.3025151,206.281542 Z M86.046947,207.473627 C86.0829806,208.529209 84.8535871,209.404622 83.3316829,209.4237 C81.8013,209.457614 80.563428,208.603398 80.5464708,207.564772 C80.5464708,206.498591 81.7483088,205.631657 83.2786917,205.606221 C84.8005962,205.576546 86.046947,206.424403 86.046947,207.473627 Z M96.6021471,207.069023 C96.7844366,208.099171 95.7267341,209.156872 94.215428,209.438785 C92.7295577,209.710099 91.3539086,209.074206 91.1652603,208.052538 C90.9808515,206.996955 92.0576306,205.939253 93.5413813,205.66582 C95.054807,205.402984 96.4092596,206.021919 96.6021471,207.069023 Z" fill="#fff"></path>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="skills-cert">
+                <div class="skills-programs">
+                    <div class="sp">
+                        <ul>
+                            <li>Habilidades</li>
+                            <li class="links-skills">Search Engine Optimization</li>
+                            <li class="links-skills">User Experience (UX)</li>
+                            <li class="links-skills">User Interface Design (UI)</li>
+                            <li class="links-skills">Web Application</li>
+                            <li class="links-skills">SEO Expert (Woorank)</li>
+                            <li class="links-skills">HTML</li>
+                            <li class="links-skills">CSS3</li>
+                            <li class="links-skills">Javascript</li>
+                            <li class="links-skills">Angular 6+</li>
+                            <li class="links-skills">React js</li>
+                        </ul>
+                    </div>
+                    <div class="sp">
+                        <ul>
+                            <li>Programas</li>
+                            <li class="links-skills vsc">Visual Studio Code</li>
+                            <li class="links-skills ps">Photoshop</li>
+                            <li class="links-skills il">Illustrator</li>
+                            <li class="links-skills ex">Adobe Experience Design</li>
+                            <li class="links-skills figma">Figma</li>
+                            <li class="links-skills">Ionic 3</li>
+                            <li class="links-skills">Nativescript</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="certifications">
+                    <h3>Certificaciones</h3>
+                    <amp-carousel width="330" height="230" layout="flex-item" type="slides">
+                        <amp-img src="images/certifications/webDesignForWebDeveloper.jpg" width="330" height="230" layout="responsive" alt="Web Design Certification"></amp-img>
+                        <amp-img src="images/certifications/UC-ZQJJL2NI.jpg" width="330" height="230" layout="responsive" alt="Javascript Certification"></amp-img>
+                        <amp-img src="images/certifications/Expert_Woorank.jpg" width="330" height="230" layout="responsive" alt="Woorank Certification"></amp-img>
+                        <amp-img src="images/certifications/CertificateFullStackWebDeveloper.jpg" width="330" height="230" layout="responsive" alt="Full Stack Web Developer Certification"></amp-img>
+                        <amp-img src="images/certifications/CertificateOfCompletion_AngularProgressiveWebApps.jpg" width="330" height="230" layout="responsive" alt="Progressive Web App with Angular, Certification">
+                        </amp-img>
+                        <amp-img src="images/certifications/CertificateOfCompletion_BuildingAProgressiveWebApp (1).jpg" width="330" height="230" layout="responsive" alt="Certification Progressive Web App">
+                        </amp-img>
+                        <amp-img src="images/certifications/CertificateOfCompletion_BuildingCustomHtml5VideoPlaybackWithAngular2 (1).jpg" width="330" height="230" layout="responsive" alt="Certification HTML5 Video Playback with Angular">
+                        </amp-img>
+                    </amp-carousel>
+                </div>
+            </div>
+            <div class="Experiences">
+                <h3>Experiencia</h3>
+                <div class="exp">
+                    <article class="exp-desc">
+                        <h3>Yellow Ing. & Arq. | Enc. Administracion Digital</h3>
+                        <p class="desc">
+                            Responsable Diseño y Codificación página web Inmobiliaria e Ingenieria, Edicion de Imagenes, Optimización Imagenes, Optimización en los motores de busqueda (SEO), Responsable y manejo de Correos de la empresa (creación y monitoreo).
+                        </p>
+                        <p class="date">Feb 2019 - Sep 2019</p>
+                    </article>
+                    <article class="exp-desc">
+                        <h3>Freelancer</h3>
+                        <p class="desc">
+                            Desarrollo, Diseño y Actualizaciones de páginas webs, Optimizacion en los motores de busqueda (SEO), Optimización Imagenes, Optimización contenido, marketing digital, publicidad en redes sociales y PPC en Google.
+                        </p>
+                        <p class="date"> Jun 2015 - Feb 2019</p>
+                    </article>
+                    <article class="exp-desc">
+                        <h3>Hufix | Web Developer (Remoto)</h3>
+                        <p class="desc">
+                            Desarrollo de Página web App, Plataforma para cliente venda equipos telefónicos (mobiles) de forma fácil, segura, rápida y confiable.
+                        </p>
+                        <p class="date">Abril 2018 - Nov 2018</p>
+                    </article>
+                    <article class="exp-desc">
+                        <h3>Delicias del Rancho | Web Design & Developer (Remoto)</h3>
+                        <p class="desc">
+                            Desarrollo y Diseño de Página web, la Realizacion de un catalogo digital para la presentación de los productos a existentes y futuros clientes.
+                        </p>
+                        <p class="date">Enero 2018 - Marzo 2018</p>
+                    </article>
+                </div>
+
+
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>
